@@ -1,0 +1,15 @@
+{
+    "background.loop": true,
+    "background.customImages": [
+        "https://images.alphacoders.com/118/1187022.jpg"
+    ],
+    "background.enabled": true,
+    "background.interval": 10,
+    "background.fullscreen": {
+
+        "image": "https://images.alphacoders.com/118/1187022.jpg", 
+        "opacity": 0.90,
+        "size": "cover",
+        "interval": 10
+    }
+}
