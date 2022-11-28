@@ -1,33 +1,19 @@
 .bodyStyle{
     background-color: #8fd8d2 ;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT4Cf1LlPTCeNdE21wznMF1u10qFQoBFNPLhpzOw_mJQ&s") no-repeat center center fixed;
+  background-size: cover;
 }
-.Wrapper{
-    background-color: #fedcd2;
-    margin:20px;
+.Text{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aliceblue;    
 }
-h1{
-    text-align: center;
-    font-size: 300%;
-}
-h1:hover{
-    font-size: 350%;
-}
-label{
+.higlightLabel{
     font-size: 50px;
-    font-family: 'Times New Roman', Times, serif;
+    color: black;
 }
-.lower{
-    background-color: grey;
-    display: grid;
-}
-.listImg{
-    width: 50px;
-    height: 50px;
-    opacity: 75%;
-}
-.listImg:hover{
-    opacity: 100%;
-}
-.epicmage{
-    background-color: #8fd8d2;
+.higlightLabel:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
 }

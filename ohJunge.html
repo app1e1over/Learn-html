@@ -5,17 +5,34 @@
     <meta charset="UTF-8">
     <title>Unsupervised internet accses is not healthy</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+    function Rebuild(){
+    var all = document.querySelectorAll(".Text");
+    for(let y=0; y<all.length; y++){
+        var parent = all[y]
+        var text = parent.textContent.split(" ");
+        parent.textContent="";
+        for(let i=0; i<text.length; i++){
+            var x= document.createElement("LABEL");
+            x.innerText = text[i]+" ";
+            x.className = "higlightLabel";
+            parent.appendChild(x);
+        }
+    }
+}
+    </script>
 </head>
 
 <body class="bodyStyle">
 
-    <img src="reaper.jpg"/>
-    <img src="reaper.jpg"/>
-    <img src="reaper.jpg"/>
-    <img src="reaper.jpg"/>
-    <a href="epic photo.html"><img src="reaper.jpg"/></a>
-    <img src="reaper.jpg"/>
-    <img src="reaper.jpg"/>
+    <div class="Text">
+        І здійнявши свою руку мовив він: ти що стоїш поперед мною, ти, що бачив початок й побачиш кінецб, ти, що приніс смерть до мого порогу... Я прийшов щоб здолати тебе й покінчити з цими марними стражданнями. Супротив ні до чого, мене не спинити бо ж саме серце моє палає і прагне покінчити з твоїм існуванням! 
+    </div>
+    <div class="Text">
+        О нікчемне дитя моє, що тільки намагається цей світ пізнати, як же я співчуваю стражданням, що їх тобі твоє ж власне невідання несе, та не переймайся, бо зовсім скоро, до того як палаюча денна зірка що дарує життя сховається за небокраєм, я покінчу з цим світом. 
+        Чи має сенс існування чогось такого жорстокого й мізерного, такого простого, бозбавленого сенсу буття.
+    </div>
+    <button onclick="Rebuild()">hi</button>
 </body>
 
 </html>
